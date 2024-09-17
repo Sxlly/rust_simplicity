@@ -18,7 +18,7 @@ fn main() {
     //although the following code is valid in rust where as in python it would be "x is already definied"
     let y = 6;
     println!("y is {}", y);
-    let y = 8;
+    let y = 8; //redefining is fine in rust as thats what it wants the user to do! as y as a variable is unmutable by default
     println!("y is {}", y);
-    
+
 }
