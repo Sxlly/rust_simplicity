@@ -21,4 +21,8 @@ fn main() {
     let y = 8; //redefining is fine in rust as thats what it wants the user to do! as y as a variable is unmutable by default
     println!("y is: {}", y);
 
+    //another simplicity hinderance in rust is when defining constants for example
+    const SECONDS_IN_MINUTE: u32 = 60; // "u32"? is unsigned interger 32 which is the type of this constant, you must define this in rust in opposed to python for example
+    println!("{}", SECONDS_IN_MINUTE);
+
 }
