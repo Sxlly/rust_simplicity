@@ -14,4 +14,11 @@ fn main() {
 
     let mut x = 5; //this is very complex and not simple in comparison to a language like python for example
     println!("x is {}", x);
+
+    //although the following code is valid in rust where as in python it would be "x is already definied"
+    let y = 6;
+    println!("y is {}", y);
+    let y = 8;
+    println!("y is {}", y);
+    
 }
