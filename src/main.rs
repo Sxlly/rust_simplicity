@@ -24,5 +24,4 @@ fn main() {
     //another simplicity hinderance in rust is when defining constants for example
     const SECONDS_IN_MINUTE: u32 = 60; // "u32"? is unsigned interger 32 which is the type of this constant, you must define this in rust in opposed to python for example
     println!("{}", SECONDS_IN_MINUTE); //you also cant redfine this constant in rust like you can in python
-
 }
