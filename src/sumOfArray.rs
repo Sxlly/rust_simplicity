@@ -17,9 +17,12 @@ fn main() { //declare main funciton
 }
 
 
-fn main() {
+fn main() { //declare main funciton 
 
-    let arraysum: i32 = array.iter().sum();
+    let mut array: [i32; 5] = [10,20,30,40,50]; //declare array with all contents having a 32 bit signed integer data type and 5 index length
+
+    let arraysum: i32 = array.iter().sum(); // decalre arraysum variable as 32 bit signed integer 
+
     println!(
         "sum of array is {}"
         arraysum
